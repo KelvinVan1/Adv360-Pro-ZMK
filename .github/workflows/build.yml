@@ -3,10 +3,6 @@ on: [push, pull_request, workflow_dispatch]
 name: Build
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    container:
-      image: zmkfirmware/zmk-build-arm:stable
   build-clique:
     runs-on: ubuntu-latest
     container:
